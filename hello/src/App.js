@@ -260,27 +260,27 @@ His ugly feathers were now snowy white. His neck was curved and slender. He had 
                                 <img src={aboutimg1} alt="img" />
                             </div>
                         </div></a>
-                        <a href="https://www.instagram.com/your_ctrl/"><div className="cer">
+                        <a href="https://www.instagram.com/boss_iiew/"><div className="cer">
                             <div className="cerimg">
                                 <img src={aboutimg6} alt="img" />
                             </div>
                         </div></a>
-                        <a href="https://www.instagram.com/your_ctrl/"><div className="cer">
+                        <a href="https://www.instagram.com/nine_3500/"><div className="cer">
                             <div className="cerimg">
                                 <img src={aboutimg3} alt="img" />
                             </div>
                         </div></a>
-                        <a href="https://www.instagram.com/your_ctrl/"><div className="cer">
+                        <a href="https://www.instagram.com/y3ear/ "><div className="cer">
                             <div className="cerimg">
                                 <img src={aboutimg5} alt="img" />
                             </div>
                         </div></a>
-                        <a href="https://www.instagram.com/your_ctrl/"><div className="cer">
+                        <a href="https://www.instagram.com/russsssana/"><div className="cer">
                             <div className="cerimg">
                                 <img src={aboutimg4} alt="img" />
                             </div>
                         </div></a>
-                        <a href="https://www.instagram.com/your_ctrl/"><div className="cer">
+                        <a href="https://www.instagram.com/iaintneverplayfair/"><div className="cer">
                             <div className="cerimg">
                                 <img src={aboutimg2} alt="img" />
                             </div>
