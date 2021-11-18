@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Mystery+Quest&display=swap');
+nav{
+  display: flex;
+  width: 60%;
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+nav a{
+  text-decoration: none;
+  margin-top: 60px;
+  font-size: 20pt;
+  color: #543606;
+  font-family: 'Montaga', serif;
+}
+nav a img{
+  margin-top: 30px;
+}
+.logo{
+  width: 200px;
+  height: 200px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.bg {
+  background-image: url(./bg/cotoe2.png);
+  width: 100wh;
+  height:100vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.bg h1{
+  font-family: 'Mystery Quest', cursive;
+  color: #543606;
+  text-shadow: 2px 2px #ffc700;
+  font-size: 85px;
+  text-align: center;
+}
+#bg7 h1{
+  font-family: 'Mystery Quest', cursive;
+  color: #02420C;
+  text-shadow: 2px 2px #ffc700;
+  font-size: 60px;
+  text-align: center;
+  padding: 0.5vh 10vh;
+}
+#bg7 .head{
+  font-family: 'Mystery Quest', cursive;
+  color: #0075A7;
+  text-shadow: 2px 2px #00eeff;
+  font-size: 60px;
+  text-align: center;
+}
+.fontslogo{
+  margin-top: 230px;
+  margin-left: 650px;
+}
+#bg2 {
+  background-image: url(./Blur/bg_1.png);
+  height:100vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.bg2-1 {
+  background-image: url(./Blur/bg_1.png);
+  height:100vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.bg3 {
+  background-image: url(./Blur/bg_river.png);
+  height:100vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.bg5 {
+  background-image: url(./Blur/sswinter-01.jpg);
+  height:100vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.bg4 {
+  background-image: url(./Blur/bg_หอบของ.png);
+  height:100vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.bg6 {
+    background-image: url(./Blur/bg_หงษ์.png);
+    height:100vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  #bg7 {
+    background-image: url(./bg/ข้อคิดที่ได้-02.png);
+    height:100vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+.box{
+  font-family: 'Prompt', sans-serif;
+  font-size: 14px;
+}
+.main{
+  width: 90vh;
+  height: 25vw;
+  margin: 0 auto;
+  box-shadow: 3px 3px 10px #cacaca;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: white;
+  transition: 0.4s ease-out 100ms;
+  float: left;
+  margin-top: 6vw;
+}
+.img{
+    height: 40vw;
+    background-color: #555;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+}
+.center{
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 100px;
+  /* width: 100vh; */
+}
+.main2{
+  width: 65vh;
+  height: 40vw;
+  margin: 0 auto;
+  box-shadow: 3px 3px 10px #cacaca;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: white;
+  transition: 0.4s ease-out 100ms;
+
+}
+.contentbox{
+  margin: 8px 5px 0px 5px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.contentbox p{
+  color: black;
+  font-size:  1.9em;
+  font-family: 'Montaga', serif;
+  /* text-align: justify;
+  text-justify: inter-word; */
+}
+.contentbox2{
+    margin: 8px 5px 0px 5px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+  .contentbox2 p{
+    color: black;
+    font-size:  1.9em;
+    font-family: 'Montaga', serif;
+    /* text-align: justify;
+    text-justify: inter-word; */
+  }
+#about{
+  width: 100%;
+  height: 20vw;
+  background-color: #A6E3F6;
+}
+#about h1{
+  font-size: 35px;
+  /* color: white; */
+  margin: 0 auto;
+  text-align: center;
+}
+.cer{
+  position: relative;
+  width: 20vh;
+  height: 20vh;
+  border: 5px solid white;
+  border-radius: 180px;
+  float: left;
+  overflow: hidden;
+  margin-left: 40px;
+  transition: 0.4s ease-out 100ms;
+}
+.cerimg{
+  width: 20vh;
+  height: 20vh;
+  background-color: #555;
+}
+.cerimg img{
+  width: 100%;
+  
+}
+.cer:hover{
+    box-shadow: #555;
+  }
+.center2{
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  /* width: 100vh; */
+}
+
+/* ---testflip--- */
+
+.scene {
+    width: 400px;
+    height: 520px;
+    margin: 40px 0;
+    perspective: 600px;
+  }
+  
+  .card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+  }
+  
+  .card.is-flipped {
+    transform: translateX(70%) rotateY(-180deg);
+  }
+  
+  .card__face {
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    backface-visibility: hidden;
+  }
+  
+  .card__face--front {
+    background: red;
+  }
+  
+  .card__face--back {
+    background: blue;
+    transform: rotateY(180deg);
+  }
+  /* ---testflip--- */
+  
+  /* .container {
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    perspective: 1000px;
+  }
+  
+  .card {
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .front, .back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+  }
+  
+  .front {
+    border: 2px solid black;
+    background: url("http://placehold.it/250x250");
+  }
+  
+  .front:hover {
+    bottom: 2px;
+    left: 2px;
+    box-shadow: 0px 0px 20px 1px #000;
+  }
+  
+  .back {
+    border: 2px solid black;
+    background: url("http://placehold.it/100x100");
+    transform: rotateY(180deg);
+  }
+  
+  .back:hover {
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 0px 0px 20px 1px #000;
+  } */
+  
