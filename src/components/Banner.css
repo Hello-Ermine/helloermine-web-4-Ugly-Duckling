@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Mystery+Quest&display=swap');
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.banner-bg{
+    padding: 9%;
+    height: 33vmax;
+    background: url('../bg/cotoe.png');
+    background-size: cover;
+    overflow: hidden;
+
+}
+.banner-con{
+    padding-left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
+/* .h1{
+    margin: 0;
+    padding: 0;
+    font-size: 810vmax;
+} */
+.banner-text{
+    padding-left: 50%;
+    margin: 10%;
+    /* padding: 0; */
+    font-family: 'Mystery Quest', cursive;
+    color:#543606;
+    text-shadow: 3px 3px #ffc700;
+    font-size: 4vmax;
+    text-align: center;
+}
+
+
+/* .banner-btn{
+    background: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px;
+    transition: 0.3s;
+    margin: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+} */
+.banne-btn{
+    border: 2px solid #fff;
+    background: transparent;
+    color:#fff;
+}

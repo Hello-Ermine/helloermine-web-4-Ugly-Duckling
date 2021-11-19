@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Mystery+Quest&display=swap');
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    /* padding-left: 10vmax; */
+}
+html{
+    scroll-behavior: smooth;
+} 
+.header{
+    float: none;
+    
+    background: #c9f3fb94;
+    
+    /* c9f3fb */
+    /* height: 30%; */
+    
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    padding: 1%;
+    padding-top: 2%;
+    z-index: 9999 !important;
+    position: fixed;
+    /* padding-top: 1%;
+    padding-bottom: 1%;  */
+}
+.header a{
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+}
+.header-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    /* margin-left: 10vmax; */
+    /* height: 10%; */
+}
+.logo img{
+    /* color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem; */
+    /* padding-bottom: 1%; */
+    /* width: -10px; */
+    height: 5vmax;  
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+.menu li{
+    padding-right: 3rem;
+}
+.menu li a{
+    padding-bottom: 1% ;
+    text-decoration: none;
+    font-size: 2.4vmax;
+    color: #543606;
+    font-family: 'Montaga', serif;
+}
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width:480px) {
+    .mobile-menu{
+        display: block;
+        color:#fff;
+        font-size: 2rem;
+    }
+    .header{
+        padding: 0 2rem;
+    }
+    .menu{
+        width:  100%;
+        height:  auto;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: 64px;
+        left: 100%;
+        opacity: 0;
+        transition: 0.5s ease;
+        /* background: #111 ; */
+    }
+    .menu.active{
+        background: #c9f3fb ;
+        left: 0;
+        opacity: 1;
+        z-index: 1;
+        align-content: center;
+        padding-left: 0;
+        transition: 0.5s ease;
+    }
+    .menu li{
+        padding-right:0 ;
+    }
+    .menu-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vw;
+        padding: 10px 0;
+    }
+}
