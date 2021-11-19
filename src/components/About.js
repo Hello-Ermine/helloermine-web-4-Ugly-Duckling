@@ -8,7 +8,7 @@ import aboutimg4 from '../about_img/IMG_20200809_175257-01.jpeg';
 import aboutimg5 from '../about_img/IMG_7815.png';
 import aboutimg6 from '../about_img/unknown.png';
 // import aboutimg33 from '../about_img/test.jpg';
-import {FiCode} from 'react-icons/fi';
+// import {FiCode} from 'react-icons/fi';
 
 function About(){
     return(

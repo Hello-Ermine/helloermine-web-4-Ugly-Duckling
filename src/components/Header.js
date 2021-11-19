@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import { FiCode,FiMenu,FiX } from "react-icons/fi";
+// import { FiCode,FiMenu,FiX } from "react-icons/fi";
 import './Header.css'
 import logo from '../logo/logo.png'
 
@@ -34,7 +34,7 @@ import logo from '../logo/logo.png'
                     </ul> 
                     </nav>
                     <div className="mobile-menu" onClick={handleClick}>
-                    {click ?(<FiX/>):(<FiMenu/>)}
+                    {/* {click ?(<FiX/>):(<FiMenu/>)} */}
                     </div>
                  </div>
              </div>
